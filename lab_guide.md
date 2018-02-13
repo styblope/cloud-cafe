@@ -1,20 +1,17 @@
-Pricing: https://icpsizing.mybluemix.net
-Cloud campaign videos:
-
 # Cloud coffee lab guide
 
 ## Provision ICP
 
-> You will be assigned an instance provisioned in IBM Cloud (Softlayer)
+> You will be provided a pre-installed cluster instance in IBM Cloud (Softlayer).
 
 ## Access ICP Master server
 
-UI login
+UI login:
 
     https://<master_ip>:8443
     admin/admin
 
-CLI session
+CLI session:
 
     ssl root@<master_IP>
 
@@ -39,9 +36,9 @@ To obtain the configuration details from the management console:
 
 2. Select *User Name > Configure* client. The cluster configuration details display and resemble the following code:  
 
-    ![](/home/petr/temp/Selection_002.png)
+    ![](./media/Selection_002.png)
 
-3. In these details, master_ip is the IP address of the master node for your IBM Cloud Private cluster.
+3. In these details, *master_ip* is the IP address of the master node for your IBM Cloud Private cluster.
 
 4. Copy and paste the configuration information to your command line, and press Enter.
 
@@ -49,6 +46,7 @@ To obtain the configuration details from the management console:
 
     sudo apt-get install bash-completion
     echo 'source <(kubectl completion bash)' >> ~/.bashrc
+    source <(kubectl completion bash)
 
 ### Basic kubectl commands
 
@@ -76,7 +74,7 @@ Note, the online tutorial assumes thata you reserve and provision an ICP instanc
 You can choose to deploy one of the following middleware applications. Click on the links for detailed instructions.
 
 - [DB2](./deployDB2.md)
-- [MQ](./deplyMQ.md)
+- [MQ](./deployMQ.md)
 
 Note, these recipes have been inspired by a more complex demo use-case that simulates a task of an application team who has developed a microservice-based web application, **StockTrader** and is about to deploy it to the ICp environment. 
 
