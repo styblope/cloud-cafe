@@ -99,11 +99,11 @@ To deploy MQ to Kubernetes cluster, you need to create a persistent volume that 
 
 In this lab, we are going to create such volume in the file system.
 
-1.  Open a terminal window and create a new file directory named **myVolume** under /home/ibmdemo directory with commands:
+1.  Open a terminal window and create a new file directory named **mqvol** under `/export` directory with commands:
 
         cd /export
         mkdir mqvol
-        chmod a+w -R db2vol/
+        chmod a+w -R mqvol/
 
 1.  Go back to IBM Cloud private console, and use the upper left menu to navigate to the **Platform/Storage** page
 
