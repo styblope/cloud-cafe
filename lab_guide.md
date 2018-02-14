@@ -13,7 +13,7 @@ UI login:
 
 CLI session:
 
-    ssl root@<master_IP>
+    ssh root@<master_IP>
 
 ## Guided demo
 
@@ -40,7 +40,7 @@ To obtain the configuration details from the management console:
 
 3. In these details, *master_ip* is the IP address of the master node for your IBM Cloud Private cluster.
 
-4. Copy and paste the configuration information to your command line, and press Enter.
+4. Copy and paste the configuration information to your command line, and press Enter. Hint: Click the icon on the right to copy all lines into the clipboard.
 
 ### Setup kubectl autocompletion
 
