@@ -241,3 +241,6 @@ In this lab we are going to use the ICp Catalog UI to deploy IBM MQ.
 
 **Congratulations! You have successfully completed the lab “Deploying MQ in Docker Containers on IBM Cloud private”**
 
+---
+
+![](./media/ibm-cloud.png)

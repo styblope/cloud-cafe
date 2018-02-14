@@ -205,3 +205,7 @@ In this lab we are going to use the ICp Catalog UI to deploy DB2 service.
 	Note: The port number is 30961 in this example and you might have a different port number in your own environment.
 
 **Congratulations! You have successfully completed the lab “Deploying DB2 in Docker Containers on IBM Cloud private”**
+
+---
+
+![](./media/ibm-cloud.png)

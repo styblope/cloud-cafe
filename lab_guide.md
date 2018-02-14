@@ -150,4 +150,8 @@ Deploy to ICP using Helm
 
     helm install chart/<projectname>
 
+---
+
+![](./media/ibm-cloud.png)
+
 

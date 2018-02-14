@@ -1,4 +1,4 @@
-# 2018 IBM Cloud Cafe Workshop
+![](./media/cream-party.png)
 
 ## Event Overview 
 Do you want an environment to build an application quickly, without worrying about the underlying IT infrastructure? Or do you have a need for extending  your existing IT infrastructure in the cloud?  Are you a freelance developer working for multiple  clients? Or developing the next start up killer app?  Or working on appealing web and mobile front end  applications, to be integrated with your enterprise’s  back end applications?
@@ -16,9 +16,7 @@ IBM Cloud Private is an application platform for  developing and managing on pre
 - Intro to cloud-Native applications, microservices
 - Migrating workloads to IBM Cloud Private
 - Sizing and typical deployments
-
 - ICP Demo, including Cloud Automation Manager
-
 - Competitive positioning and value add
 - Licensing and go-to market strategy
 
@@ -32,3 +30,5 @@ IBM Cloud Private is an application platform for  developing and managing on pre
 - MicroServices builder
 
 The lab guide is available [here](./lab_guide.md)
+
+
