@@ -1,4 +1,5 @@
-![frontpage](./media/cream-party.png)
+
+---?image=./media/cream-party.png
 
 ---
 
